@@ -33,7 +33,7 @@ connect>>http://127.0.0.1:4000
 Rhai is an embedded scripting language and evaluation engine for Rust that gives a safe and easy way to add scripting to any application.
 [Link to Rhai Project on Github](https://github.com/jonathandturner/rhai)
 ## What this broswer does.
-This browser can run http requests as of now, and can fetch .rhai programs from web servers. The browser internally has a script runtime engine that executes these scripts to do all sorts of good stuff?
+This browser can run http requests as of now, and can fetch .rhai programs from web servers. The browser internally has a script runtime engine that executes these scripts to do all sorts of good stuff
 
 ### What good stuff?
 Well for now the good feature (in my opinion) is that I can create menu driven programs in rhai that can be fetched via an http get request and loaded from memory into the browser. These .rhai programs in turn can run http get requests to access rest APIs as defined in the server itself.
@@ -42,3 +42,8 @@ Well for now the good feature (in my opinion) is that I can create menu driven p
 The server4 has two routes:
 * **The index route:** When the browser requests this route, the prog4.rhai gets loaded, which you can think of as the index.html file in this case(except it contains logic as well). It is a menu driven program, that asks for your choice and behaves accordingly.
 * **The rest api route:** This server's main functionality is to output a square of a number. This route is basically defined as  /<num> where num is a positive integer. The returned response is a string containing the square of the number. The prog4.rhai uses a get request to fetch the square of an integer(which will be entered by the user) and prints the square of that number as returned by the server.
+
+
+## But Why?
+Well this is more of a learning exercise for Rust newbies like me. This has taught me a lot of important concepts not just in Rust but programming in general. I feel like there is a lot to be added to it to improve it further and in general such a project does have a lot of room for improvement.
+If other people happen to check out this repository, please check out the code and provide your valuable feedback and suggestions in the issues tab.

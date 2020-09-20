@@ -798,7 +798,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "terminal_web_browser"
+name = "term_surf"
 version = "0.1.0"
 dependencies = [
  "reqwest",

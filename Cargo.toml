@@ -1,0 +1,11 @@
+[package]
+name = "terminal_web_browser"
+version = "0.1.0"
+authors = ["Debmalya99 <debmalyamitra99@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.10", features = ["blocking", "json"] }
+rhai = "0.18.3"

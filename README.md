@@ -1,5 +1,7 @@
 # TermSurf : Text Based Web Browser
 
+[Link to Reddit Thread](https://www.reddit.com/r/rust/comments/iwvn00/textbased_web_browser_for_rust_newbies/?utm_source=share&utm_medium=web2x&context=3)
+
 ## Building the browser
 * **You need the full Rust toolchain along with cargo.** This can be obtained here: [Rust homepage](https://www.rust-lang.org/).
 * Clone this repository somewhere in your machine.
